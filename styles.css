@@ -155,7 +155,6 @@ body {
 @media (max-width: 300px) {
     body {
       font-size: 12px;
-      padding: 10px;
       display:flex;
       flex-direction: column;
     }
