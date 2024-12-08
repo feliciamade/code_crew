@@ -3,73 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Felicia Phillips Portfolio</title>
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
+    <!-- External CSS -->
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
-    
 
-
-
-    <!--assignment title-->
-  
-    <!--Profile Picture-->
-    <header>
-      <div id="aboutMe_img">
-        <img src="https://images.squarespace-cdn.com/content/v1/62325b628fcca70e63f859ab/1728969154158-KUW8TKYY88IJTO1M4RWL/Expressions.png?format=750w" />
-      </div>
-      <h1> 🌱 Felicia Phillips </h1>
-  
-      <div id="social_media">
-        <a href="https://github.com/feliciamade"> <i class="fa-brands fa-github-alt"></i> </a>
-  
-        <a href="https://www.behance.net/feliciamphillips/info"> <i class="fa-brands fa-behance"></i> </a>
-  
-        <a href="https://www.instagram.com/fe.liciamade/"> <i class="fa-brands fa-instagram"></i> </a>
-  
-      </div>
-    </header>
-    <!--part two instructions-->
-  
-    <main>
-      <div id="aboutMe">
-        <h3>01. About Me </h3>
-        <p> I'm a Memphis-based graphic designer and illustrator.</p>
-      </div>
-      <!--your info here -->
-  
-      <!--part three instructions-->
-      <div class="secretBox">
-        <h3>02. My Why </h3>
-        <p> A career in tech is about more than just a salary increase for me; it’s where I truly feel a sense of belonging and can thrive.
-        </p>
-      </div>
-      <!--part four instructions-->
-      <div class="techexperience">
-        <h3>03. Tech Experience </h3>
-        <p>
-          I'm a graphic designer and illustrator with front-end development expertise.
-        </p>
-      </div>
-    </main>
-    <!--part 5 instructions-->
-    <h3>Code Challenge Practice</h3>
-    <div id="myMessage">
+<header>
+    <!-- Profile Picture -->
+    <div id="aboutMe_img">
+        <img src="https://images.squarespace-cdn.com/content/v1/62325b628fcca70e63f859ab/1728969154158-KUW8TKYY88IJTO1M4RWL/Expressions.png?format=750w" alt="Profile Picture">
     </div>
-  
+
+    <!-- Name -->
+    <h1>Felicia Phillips</h1>
+
+    <!-- Social Media Links -->
+    <div id="social_media">
+        <a href="https://github.com/feliciamade" aria-label="GitHub"> <i class="fa-brands fa-github-alt"></i> </a>
+        <a href="https://www.behance.net/feliciamphillips/info" aria-label="Behance"> <i class="fa-brands fa-behance"></i> </a>
+        <a href="https://www.instagram.com/fe.liciamade/" aria-label="Instagram"> <i class="fa-brands fa-instagram"></i> </a>
+    </div>
+</header>
+
+<main>
+    <!-- About Me Section -->
+    <section id="aboutMe">
+        <h3>01. About Me</h3>
+        <p>I'm a Memphis-based graphic designer and illustrator.</p>
+    </section>
+
+    <!-- My Why Section -->
+    <section class="secretBox">
+        <h3>02. My Why</h3>
+        <p>A career in tech is about more than just a salary increase for me.</p>
+    </section>
+
+    <!-- Tech Experience Section -->
+    <section class="techexperience">
+        <h3>03. Tech Experience</h3>
+        <p>I'm a graphic designer and illustrator with front-end development expertise.</p>
+    </section>
+</main>
+
+<!-- Code Challenge Practice Section -->
+<section id="codeChallenge">
+    <h3>Code Challenge Practice</h3>
+    <div id="myMessage"></div>
+
     <button onclick="displayMessage()">Click for hint!</button>
     <button onclick="changeText()">Click for hint!</button>
- 
-<script src="script.js"> </script>
-    
-</body>
+</section>
 
+<script src="script.js"></script>
+</body>
 </html>
+
