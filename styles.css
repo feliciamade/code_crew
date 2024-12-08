@@ -152,7 +152,7 @@ body {
     color: gold;
   }
   
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     body {
       font-size: 12px;
       padding: 10px;
