@@ -1,0 +1,167 @@
+/*styling applied to the whole page*/
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    margin: 50px;
+  }
+  /* styling applied to the MDN Link */
+
+  a {
+    color:black;
+  }
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: #ff69b4;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    margin: -30px 0 40px 0;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  /*styling applied to the element with the ID "aboutMe"*/
+  main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  #aboutMe,
+  .secretBox,
+  .techexperience {
+    width: 50%;
+    height: 200px;
+    align-items: center;
+  }
+  
+
+  .techexperience:hover {
+    background: #fcfcff;
+    transition: all 1s ease;
+  }
+  
+  #aboutMe:hover {
+    background: #fcfcff;
+    transition: all 1s ease;
+  }
+  
+  .secretBox:hover {
+    background: #fcfcff;
+    transition: all 1s ease;
+  }
+  
+  main p {
+    margin-top: -10px;
+  }
+  
+  #aboutMe {
+    background: #e6e8fb;
+    color: black;
+    padding: 5%;
+    border-radius: 30px;
+  }
+  
+  #social_media {
+    font-size: 35px;
+    display: inline flex;
+    gap: 30px;
+    margin: -30px 0 0 0;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
+  /*styling applied to the element with the class "secretBox"*/
+  .secretBox {
+    background: #e6e8fb;
+    color: black;
+    padding: 5%;
+    margin: 1% 0;
+    border-radius: 30px;
+    align-items: center;
+  }
+  /*styling applied to the element with the class "techexperience"*/
+  .techexperience {
+    background: #e6e8fb;
+    color: black;
+    padding: 5%;
+    margin: 1% 0;
+    border-radius: 30px;
+  }
+  /*styling applied to the element with the ID "myMessage"*/
+  button {
+    border: none;
+    padding: 20px 30px 20px 30px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background: #fcfcff;
+    color:black;
+    transition: all 2s ease;
+  }
+
+
+
+  #myMessage {
+    border-radius: 30px;
+    background: #e6e8fb;
+    color: black;
+    padding: 5% 0;
+    text-align: center;
+    font-size: 40px;
+  }
+  /*styling applied to the element with the ID "challenge"*/
+  #challenge {
+    background: lightblue;
+    padding: 5% 0;
+    border-radius: 30px;
+    text-align:center;
+    font-size: 60px;
+  }
+  
+  #challenge {
+    background: lightblue;
+    padding: 5% 0;
+    border-radius: 30px;
+    text-align:center;
+  }
+  /*styling applied to the element with the ID "changeColor"*/
+  #changeColor {
+    border-radius: 30px;
+    background: purple;
+    padding: 5% 0;
+  }
+  
+  /* This is what making this colored*/
+  .htmlText {
+    color: red;
+  }
+  .cssText {
+    color: darkblue;
+  }
+  
+  .js {
+    color: gold;
+  }
+  
