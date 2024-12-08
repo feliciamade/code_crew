@@ -1,7 +1,6 @@
 /*styling applied to the whole page*/
 body {
     font-family: "Poppins", sans-serif;
-    margin: 0;
     padding: 0;
     margin: 50px;
   }
@@ -22,17 +21,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
     margin-bottom: 40px;
   }
   
-  h1 {
-    margin: -30px 0 40px 0;
-  }
   
   p {
     font-size: 16px;
   }
+
   /*styling applied to the element with the ID "aboutMe"*/
   main {
     display: flex;
@@ -46,7 +42,6 @@ body {
   .techexperience {
     width: 50%;
     height: 200px;
-    align-items: center;
   }
   
 
@@ -91,7 +86,6 @@ body {
     background: #e6e8fb;
     color: black;
     padding: 5%;
-    margin: 1% 0;
     border-radius: 30px;
     align-items: center;
   }
@@ -152,16 +146,15 @@ body {
     background: purple;
     padding: 5% 0;
   }
-  
-  /* This is what making this colored*/
-  .htmlText {
-    color: red;
-  }
-  .cssText {
-    color: darkblue;
-  }
+
   
   .js {
     color: gold;
   }
   
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
