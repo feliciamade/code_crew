@@ -41,7 +41,7 @@ main {
 .secretBox,
 .techexperience {
   width: 50%;
-  height: 200px;
+  height: auto;
 }
 
 
